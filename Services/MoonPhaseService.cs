@@ -6,9 +6,14 @@ public class MoonPhaseService
 
     private readonly string[] _moonSymbols = new string[]
     {
-        "🌑","🌒","🌓","🌔","🌕","🌖","🌗","🌘",
-        "🌑","🌒","🌓","🌔","🌕","🌖","🌗","🌘",
-        "🌑","🌒","🌓","🌔","🌕","🌖","🌗","🌘"
+        "",
+        "","","","","","",
+        "",
+        "","","","","","",
+        "",
+        "","","","","","",
+        "",
+        "","","","","",""
     };
 
     private double GetPhaseFraction(DateTime date)
