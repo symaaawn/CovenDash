@@ -32,8 +32,8 @@ else
     SHELL_RC="$HOME/.bashrc"
 fi
 
-sed -i '/CovenDash &/d' "$SHELL_RC"
+sed -i '/CovenDash/d' "$SHELL_RC"
 
-grep -qxF "$BINARY_DEST &" "$SHELL_RC" || echo "$BINARY_DEST &" >> "$SHELL_RC"
+grep -qxF "$BINARY_DEST" "$SHELL_RC" || echo "$BINARY_DEST" >> "$SHELL_RC"
 
 echo "Startup-Hook in $SHELL_RC gesetzt. Das Dashboard startet nun bei jedem Terminalstart."
