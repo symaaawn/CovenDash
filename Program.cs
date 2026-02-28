@@ -5,10 +5,12 @@ using CovenDash.Services;
 using CovenDash.Widgets;
 
 var moonService = new MoonPhaseService();
+var systemInfoService = new SystemInfoService();
 
 var widgets = new List<IDashboardWidget>
 {
-    new MoonWidget(moonService)
+    new MoonWidget(moonService),
+    new SystemInfoWidget(systemInfoService)
 };
 
 var dashboard = new DashboardApp(widgets);

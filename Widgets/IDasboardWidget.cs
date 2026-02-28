@@ -4,8 +4,6 @@ namespace CovenDash.Widgets;
 
 public interface IDashboardWidget
 {
-    string Id { get; }
-    int Order { get; }
-
+    string Title { get; }
     IRenderable Render();
 }

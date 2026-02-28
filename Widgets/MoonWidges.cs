@@ -9,8 +9,7 @@ public class MoonWidget : IDashboardWidget
 {
     private readonly MoonPhaseService _service;
 
-    public string Id => "moon";
-    public int Order => 1;
+    public string Title => "moon";
 
     public MoonWidget(MoonPhaseService service)
     {
