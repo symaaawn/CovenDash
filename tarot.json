@@ -56,50 +56,50 @@
   {
     "Numeral": "IX",
     "Name": "The Hermit",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Soul-searching, introspection, inner guidance, solitude",
+    "MeaningReverse": "Isolation, loneliness, withdrawal"
   },
   {
     "Numeral": "X",
     "Name": "The Wheel",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Good luck, karma, life cycles, destiny, a turning point, movement",
+    "MeaningReverse": "Bad luck, resistance to change, breaking cycles"
   },
   {
     "Numeral": "XI",
     "Name": "Justice",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Justice, fairness, truth, cause and effect, law, responsibility",
+    "MeaningReverse": "Unfairness, lack of accountability, dishonesty"
   },
   {
     "Numeral": "XII",
     "Name": "The Hanged Man",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Pause, surrender, reversal, letting go, sacrifice, new perspective",
+    "MeaningReverse": "Delays, resistance, stalling, indecision"
   },
   {
     "Numeral": "XIII",
     "Name": "Death",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Endings, change, transformation, transition, elimination",
+    "MeaningReverse": "Resistance to change, personal transformation"
   },
   {
     "Numeral": "XIV",
     "Name": "Temperance",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Balance, moderation, patience, purpose, combination",
+    "MeaningReverse": "Imbalance, excess, self-healing, realignment"
   },
   {
     "Numeral": "XV",
     "Name": "The Devil",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Shadow self, restriction, attachment, addiction, sexuality, materialism",
+    "MeaningReverse": "Releasing limiting beliefs, exploring dark thoughts"
   },
   {
     "Numeral": "XVI",
     "Name": "The Tower",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Sudden change, downfall, upheaval, chaos, release, revelation",
+    "MeaningReverse": "Personal transformation, fear of change"
   },
   {
     "Numeral": "XVII",
@@ -110,25 +110,25 @@
   {
     "Numeral": "XVIII",
     "Name": "The Moon",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Illusion, fear, anxiety, subconscious, intuition, imagination",
+    "MeaningReverse": "Release of fear, repressed emotion, inner confusion"
   },
   {
     "Numeral": "XIX",
     "Name": "The Sun",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Positivity, fun, warmth, success, vitality, enlightenment",
+    "MeaningReverse": "Inner child, feeling down, overly optimistic"
   },
   {
     "Numeral": "XX",
     "Name": "Judgement",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Judgement, rebirth, inner calling, absolution",
+    "MeaningReverse": "Self-doubt, inner critic, ignoring the call"
   },
   {
     "Numeral": "XXI",
     "Name": "The World",
-    "MeaningUpright": "",
-    "MeaningReverse": ""
+    "MeaningUpright": "Completion, travel, accomplishment, integration, fulfillment",
+    "MeaningReverse": "Seeking personal closure, short-cuts, delays"
   }
 ]
