@@ -1,7 +1,6 @@
 using Spectre.Console;
 using Spectre.Console.Rendering;
 using CovenDash.Services;
-using CovenDash.Widgets;
 
 namespace CovenDash.Widgets;
 

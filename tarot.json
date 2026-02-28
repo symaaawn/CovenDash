@@ -1,0 +1,134 @@
+[
+  {
+    "Numeral": "0",
+    "Name": "The Fool",
+    "MeaningUpright": "Beginnings, innocence, spontaneity, faith",
+    "MeaningReverse": "Holding back, recklessness, risk-taking"
+  },
+  {
+    "Numeral": "I",
+    "Name": "The Magician",
+    "MeaningUpright": "Manifestation, power, resourcefulness, action, conscious awareness",
+    "MeaningReverse": "Manipulation, poor planning, untapped talents"
+  },
+  {
+    "Numeral": "II",
+    "Name": "The High Priestess",
+    "MeaningUpright": "Intuition, mystery, sacred knowledge, divine feminine, unconscious",
+    "MeaningReverse": "Secrets, disconnected from intuition, withdrawal and silence"
+  },
+  {
+    "Numeral": "III",
+    "Name": "The Empress",
+    "MeaningUpright": "Femininity, beauty, nature, nurturing, abundance, senses",
+    "MeaningReverse": "Creative block, dependence on others"
+  },
+  {
+    "Numeral": "IV",
+    "Name": "The Emeror",
+    "MeaningUpright": "Authority, structure, establishment, regulation, fathering",
+    "MeaningReverse": "Domination, excessive control, lack of discipline"
+  },
+  {
+    "Numeral": "V",
+    "Name": "The Hierophant",
+    "MeaningUpright": "Spiritual wisdom, belief systems, conformity, tradition",
+    "MeaningReverse": "Personal beliefs, freedom, challenging the status quo"
+  },
+  {      
+    "Numeral": "VI",
+    "Name": "The Lovers",
+    "MeaningUpright": "Love, harmony, relationships, values, personal beliefs, choices",
+    "MeaningReverse": "Self-love, disharmony, imbalance, misalignment of value"
+  },
+  {
+    "Numeral": "VII",
+    "Name": "The Chariot",
+    "MeaningUpright": "Control, willpower, success, self-assertion, determination, victory",
+    "MeaningReverse": "Self-discipline, opposition, lack of direction"
+  },
+  {
+    "Numeral": "VIII",
+    "Name": "Strength",
+    "MeaningUpright": "Strength, courage, patience, influence, compassion",
+    "MeaningReverse": "Inner strength, self-doubt, low energy, raw emotion"
+  },
+  {
+    "Numeral": "IX",
+    "Name": "The Hermit",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "X",
+    "Name": "The Wheel",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XI",
+    "Name": "Justice",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XII",
+    "Name": "The Hanged Man",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XIII",
+    "Name": "Death",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XIV",
+    "Name": "Temperance",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XV",
+    "Name": "The Devil",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XVI",
+    "Name": "The Tower",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XVII",
+    "Name": "The Star",
+    "MeaningUpright": "Hope, faith, purpose, renewal, spirituality, inspiration, serenity",
+    "MeaningReverse": "Lack of faith, despair, self-trust, disconnection"
+  },
+  {
+    "Numeral": "XVIII",
+    "Name": "The Moon",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XIX",
+    "Name": "The Sun",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XX",
+    "Name": "Judgement",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  },
+  {
+    "Numeral": "XXI",
+    "Name": "The World",
+    "MeaningUpright": "",
+    "MeaningReverse": ""
+  }
+]
