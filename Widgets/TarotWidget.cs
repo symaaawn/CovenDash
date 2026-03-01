@@ -21,16 +21,25 @@ public class TarotWidget : IDashboardWidget
   public IRenderable Render()
   {
     var reading = _cardOfTheDay.Upright ? _cardOfTheDay.MeaningUpright : _cardOfTheDay.MeaningReverse;
-    var text = new Text
-      (
+    var orientation = _cardOfTheDay.Upright ? "Upright" : "Reversed";
+
+    var card = new Text(
         $"{_cardOfTheDay.Numeral}\n" + 
-        $"{_cardOfTheDay.Name}\n\n" +
-        $"{reading}"
+        $"{_cardOfTheDay.Name}\n" +
+        $"{orientation}\n"
       )
       .Centered()
       .Overflow(Overflow.Fold);
 
-    return new Panel(text) { Width = 20 }
+    var meaning = new Text(
+       $"{reading}"
+      )
+      .LeftJustified()
+      .Overflow(Overflow.Fold);
+
+    var rows = new Rows(card, meaning);
+
+    return new Panel(rows) { Width = 20 }
       .Header("Tarot")
       .Border(BoxBorder.Rounded)
       .BorderColor(Spectre.Console.Color.Yellow);
