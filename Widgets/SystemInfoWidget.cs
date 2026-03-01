@@ -24,6 +24,7 @@ public class SystemInfoWidget : IDashboardWidget
     return new Panel($"System: {sysName}\nOS: {osVersion}\nUptime: {uptime}\n\nHello {userName} ")
       .Header("System Info")
       .Border(BoxBorder.Rounded)
-      .BorderColor(Spectre.Console.Color.Aqua);
+      .BorderColor(Spectre.Console.Color.Aqua)
+      .Expand();
   }
 }

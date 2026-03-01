@@ -39,9 +39,10 @@ public class TarotWidget : IDashboardWidget
 
     var rows = new Rows(card, meaning);
 
-    return new Panel(rows) { Width = 20 }
+    return new Panel(rows)
       .Header("Tarot")
       .Border(BoxBorder.Rounded)
-      .BorderColor(Spectre.Console.Color.Yellow);
+      .BorderColor(Spectre.Console.Color.Yellow)
+      .Expand();
   }
 }
