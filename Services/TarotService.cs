@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System. Reflection;
 using CovenDash.Models;
 using CovenDash.Infrastructure;
 
@@ -10,7 +11,12 @@ public class TarotService
 
   public TarotService ()
   {
-    var json = File.ReadAllText("tarot.json");
+    var assembly = Assembly.GetExecutingAssembly();
+    
+    using var stream = assembly.GetManifestResourceStream("CovenDash.tarot.json");
+    using var reader = new StreamReader(stream!);
+    var json = reader.ReadToEnd();
+
     var deck = JsonSerializer.Deserialize
       (
         json,

@@ -11,6 +11,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.3" />
     <PackageReference Include="Spectre.Console" Version="0.54.0" />
+    <EmbeddedResource Include="tarot.json" />
   </ItemGroup>
 
 </Project>
