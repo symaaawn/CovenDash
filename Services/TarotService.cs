@@ -28,7 +28,7 @@ public class TarotService
 
     if(deck != null)
     {
-      var card = deck[random.Next(21)];
+      var card = deck[random.Next(22)];
       CardOfTheDay = card;
       CardOfTheDay.Upright = random.Next(2) % 2 == 0;
     }
