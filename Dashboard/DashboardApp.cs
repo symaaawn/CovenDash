@@ -30,7 +30,7 @@ public class DashboardApp
     
     layout["left"].SplitRows(
         new Layout("sysInfoLayout").Ratio(3),
-        new Layout("moonLayout").Ratio(1)
+        new Layout("moonLayout").Ratio(2)
         );
 
     layout["sysInfoLayout"].Update(
@@ -43,7 +43,7 @@ public class DashboardApp
 
     var container = new Panel(layout)
     {
-      Height = 12
+      Height = 14
     }
       .NoBorder();
 
