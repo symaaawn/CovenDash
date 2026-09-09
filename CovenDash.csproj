@@ -11,7 +11,9 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.3" />
     <PackageReference Include="Spectre.Console" Version="0.54.0" />
-    <EmbeddedResource Include="tarot.json" />
+    <Content Include="CovenDash.Core/Data/tarot.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
