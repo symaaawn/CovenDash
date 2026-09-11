@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Text.Json;
+using CovenDash.Core.Data;
 using CovenDash.Core.Models;
 
 namespace CovenDash.Core.Services;
@@ -12,15 +13,16 @@ public class TarotService
     {
         var assembly = Assembly.GetExecutingAssembly();
 
-        var jsonPath = Path.Combine(
-            AppContext.BaseDirectory,
-            "CovenDash.Core",
-            "Data",
-            "tarot.json"
+        var resourceName = "CovenDash.CovenDash.Core.Data.tarot.json";
+        using var stream = assembly.GetManifestResourceStream(resourceName);
+        using var reader = new StreamReader(stream!);
+        var json = reader.ReadToEnd();
+
+        var deck = JsonSerializer.Deserialize
+        (
+            json,
+            AppJsonContext.Default.ListTarotCard
         );
-        var json = File.ReadAllText(jsonPath);
-        //var deck = JsonSerializer.Deserialize(json, TarotJsonContext.Default.ListTarotCard);
-        var deck = JsonSerializer.Deserialize<TarotCard[]>(json);
 
         int seed = DateTime.Today.Day + DateTime.Today.Month + DateTime.Today.Year;
         var random = new Random(seed);
