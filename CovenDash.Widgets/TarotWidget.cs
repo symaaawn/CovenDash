@@ -1,9 +1,9 @@
-using CovenDash.Core.Models;
-using CovenDash.Core.Services;
+using CovenDash.CovenDash.Core.Models;
+using CovenDash.CovenDash.Core.Services;
 using Spectre.Console;
 using Spectre.Console.Rendering;
 
-namespace CovenDash.Widgets;
+namespace CovenDash.CovenDash.Widgets;
 
 public class TarotWidget : IDashboardWidget
 {

@@ -1,9 +1,9 @@
 using System.Reflection;
 using System.Text.Json;
-using CovenDash.Core.Data;
-using CovenDash.Core.Models;
+using CovenDash.CovenDash.Core.Data;
+using CovenDash.CovenDash.Core.Models;
 
-namespace CovenDash.Core.Services;
+namespace CovenDash.CovenDash.Core.Services;
 
 public class TarotService
 {

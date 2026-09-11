@@ -1,8 +1,7 @@
-using CovenDash.Core.Services;
-using CovenDash.Widgets;
-using Spectre.Console;
+using CovenDash.CovenDash.Core.Services;
+using CovenDash.CovenDash.Widgets;
 
-namespace CovenDash.Console;
+namespace CovenDash.CovenDash.Console;
 
 public class Program
 {

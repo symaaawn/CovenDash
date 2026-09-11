@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using CovenDash.Core.Models;
+using CovenDash.CovenDash.Core.Models;
 
-namespace CovenDash.Core.Data;
+namespace CovenDash.CovenDash.Core.Data;
 
 [JsonSerializable(typeof(List<TarotCard>))]
 internal partial class AppJsonContext : JsonSerializerContext

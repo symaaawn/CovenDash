@@ -1,4 +1,4 @@
-namespace CovenDash.Core.Services;
+namespace CovenDash.CovenDash.Core.Services;
 
 public class MoonPhaseService
 {

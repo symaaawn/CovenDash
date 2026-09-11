@@ -1,8 +1,7 @@
-using CovenDash.Widgets;
+using CovenDash.CovenDash.Widgets;
 using Spectre.Console;
-using Spectre.Console.Rendering;
 
-namespace CovenDash.Console;
+namespace CovenDash.CovenDash.Console;
 
 public class DashboardApp
 {

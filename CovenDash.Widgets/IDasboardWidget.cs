@@ -1,6 +1,6 @@
 using Spectre.Console.Rendering;
 
-namespace CovenDash.Widgets;
+namespace CovenDash.CovenDash.Widgets;
 
 public interface IDashboardWidget
 {

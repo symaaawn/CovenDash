@@ -1,4 +1,4 @@
-namespace CovenDash.Core.Models;
+namespace CovenDash.CovenDash.Core.Models;
 
 public class TarotCard
 {
