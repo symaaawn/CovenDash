@@ -1,19 +1,15 @@
+using CovenDash.CovenDash.Core.Interfaces;
 using CovenDash.CovenDash.Core.Services;
 using Spectre.Console;
 using Spectre.Console.Rendering;
 
 namespace CovenDash.CovenDash.Widgets;
 
-public class SystemInfoWidget : IDashboardWidget
+public class SystemInfoWidget(ISystemInfoService service) : IDashboardWidget
 {
-    private readonly SystemInfoService _service;
+    private readonly ISystemInfoService _service = service;
 
     public string Title => "sysInfo";
-
-    public SystemInfoWidget(SystemInfoService service)
-    {
-        _service = service;
-    }
 
     public IRenderable Render()
     {

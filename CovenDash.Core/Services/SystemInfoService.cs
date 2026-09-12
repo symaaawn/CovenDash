@@ -1,12 +1,14 @@
+using CovenDash.CovenDash.Core.Interfaces;
+
 namespace CovenDash.CovenDash.Core.Services;
 
-public class SystemInfoService
+public class SystemInfoService : ISystemInfoService
 {
     public string GetUptime()
     {
         try
         {
-            var uptimeText = System.IO.File.ReadAllText("/proc/uptime");
+            var uptimeText = File.ReadAllText("/proc/uptime");
             var seconds = double.Parse(uptimeText.Split(' ')[0]);
             var ts = TimeSpan.FromSeconds(seconds);
             return $"{(int)ts.TotalHours}h {ts.Minutes}m";

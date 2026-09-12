@@ -3,14 +3,9 @@ using Spectre.Console;
 
 namespace CovenDash.CovenDash.Console;
 
-public class DashboardApp
+public class DashboardApp(IEnumerable<IDashboardWidget> widgets)
 {
-    private readonly List<IDashboardWidget> _widgets;
-
-    public DashboardApp(IEnumerable<IDashboardWidget> widgets)
-    {
-        _widgets = widgets.ToList();
-    }
+    private readonly List<IDashboardWidget> _widgets = widgets.ToList();
 
     public void Render()
     {

@@ -1,19 +1,14 @@
-using CovenDash.CovenDash.Core.Services;
+using CovenDash.CovenDash.Core.Interfaces;
 using Spectre.Console;
 using Spectre.Console.Rendering;
 
 namespace CovenDash.CovenDash.Widgets;
 
-public class MoonWidget : IDashboardWidget
+public class MoonWidget(IMoonPhaseService service) : IDashboardWidget
 {
-    private readonly MoonPhaseService _service;
+    private readonly IMoonPhaseService _service = service;
 
     public string Title => "moon";
-
-    public MoonWidget(MoonPhaseService service)
-    {
-        _service = service;
-    }
 
     public IRenderable Render()
     {
@@ -24,7 +19,7 @@ public class MoonWidget : IDashboardWidget
         return new Panel($"{symbol}  {phaseName}")
             .Header("Mond")
             .Border(BoxBorder.Rounded)
-            .BorderColor(Spectre.Console.Color.Purple)
+            .BorderColor(Color.Purple)
             .Expand();
     }
 }

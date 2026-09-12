@@ -1,11 +1,12 @@
 using System.Reflection;
 using System.Text.Json;
 using CovenDash.CovenDash.Core.Data;
+using CovenDash.CovenDash.Core.Interfaces;
 using CovenDash.CovenDash.Core.Models;
 
 namespace CovenDash.CovenDash.Core.Services;
 
-public class TarotService
+public class TarotService : ITarotService
 {
     public TarotCard CardOfTheDay { get; }
 

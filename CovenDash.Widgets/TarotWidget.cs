@@ -1,3 +1,4 @@
+using CovenDash.CovenDash.Core.Interfaces;
 using CovenDash.CovenDash.Core.Models;
 using CovenDash.CovenDash.Core.Services;
 using Spectre.Console;
@@ -5,18 +6,13 @@ using Spectre.Console.Rendering;
 
 namespace CovenDash.CovenDash.Widgets;
 
-public class TarotWidget : IDashboardWidget
+public class TarotWidget(ITarotService service) : IDashboardWidget
 {
-    private readonly TarotService _service;
-    private readonly TarotCard _cardOfTheDay;
+    private readonly ITarotService _service = service;
+    private readonly TarotCard _cardOfTheDay = service.CardOfTheDay;
+
 
     public string Title => "tarot";
-
-    public TarotWidget(TarotService service)
-    {
-        _service = service;
-        _cardOfTheDay = _service.CardOfTheDay;
-    }
 
     public IRenderable Render()
     {

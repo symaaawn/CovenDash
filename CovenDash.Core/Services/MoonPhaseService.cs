@@ -1,11 +1,13 @@
+using CovenDash.CovenDash.Core.Interfaces;
+
 namespace CovenDash.CovenDash.Core.Services;
 
-public class MoonPhaseService
+public class MoonPhaseService : IMoonPhaseService
 {
-    private readonly DateTime _refNewMoon = new DateTime(2000, 1, 6, 18, 14, 0, DateTimeKind.Utc);
+    private readonly DateTime _refNewMoon = new(2000, 1, 6, 18, 14, 0, DateTimeKind.Utc);
 
-    private readonly string[] _moonSymbols = new string[]
-    {
+    private readonly string[] _moonSymbols =
+    [
         "",
         "",
         "",
@@ -34,7 +36,7 @@ public class MoonPhaseService
         "",
         "",
         "",
-    };
+    ];
 
     private double GetPhaseFraction(DateTime date)
     {
