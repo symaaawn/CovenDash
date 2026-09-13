@@ -28,6 +28,7 @@ public class Program
         services.AddSingleton<IMoonPhaseService, MoonPhaseService>();
         services.AddSingleton<ISystemInfoService, SystemInfoService>();
         services.AddSingleton<ITarotService, TarotService>();
+        services.AddSingleton<IZodiacService, ZodiacService>();
     }
 
     private static void RegisterWidgets(IServiceCollection services)
@@ -35,5 +36,6 @@ public class Program
         services.AddSingleton<IDashboardWidget, MoonWidget>();
         services.AddSingleton<IDashboardWidget, SystemInfoWidget>();
         services.AddSingleton<IDashboardWidget, TarotWidget>();
+        services.AddSingleton<IDashboardWidget, ZodiacWidget>();
     }
 }

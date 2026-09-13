@@ -17,8 +17,9 @@ public class DashboardApp(IEnumerable<IDashboardWidget> widgets)
 
         var layout = new Layout("root").SplitColumns(
             new Layout("left").Ratio(1),
+            new Layout("middle").Ratio(1),
             new Layout("right").Ratio(1),
-            new Layout("placeholder").Ratio(3)
+            new Layout("placeholder").Ratio(2)
         );
 
         layout["left"]
@@ -26,7 +27,8 @@ public class DashboardApp(IEnumerable<IDashboardWidget> widgets)
 
         layout["sysInfoLayout"].Update(_widgets.First(w => w.Title.Equals("sysInfo")).Render());
         layout["moonLayout"].Update(_widgets.First(w => w.Title.Equals("moon")).Render());
-        layout["right"].Update(_widgets.First(w => w.Title.Equals("tarot")).Render());
+        layout["middle"].Update(_widgets.First(w => w.Title.Equals("tarot")).Render());
+        layout["right"].Update(_widgets.First(w => w.Title.Equals("zodiac")).Render());
         layout["placeholder"].Update(new Panel("").NoBorder());
 
         var container = new Panel(layout) { Height = 14 }.NoBorder();

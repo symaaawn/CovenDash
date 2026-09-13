@@ -1,0 +1,134 @@
+[
+    {
+        "Name": "Aries",
+        "Icon": "󰩾",
+        "House": 1,
+        "StartDate": "03-21",
+        "EndDate": "04-19",
+        "Element": "Fire",
+        "Modality": "Cardinal",
+        "Polarity": "Active",
+        "rulingPlanet": "Mars"
+    },
+    {
+        "Name": "Taurus",
+        "Icon": "󰪇",
+        "House": 2,
+        "StartDate": "04-20",
+        "EndDate": "05-20",
+        "Element": "Earth",
+        "Modality": "Fixed",
+        "Polarity": "Passive",
+        "rulingPlanet": "Venus"
+    },
+    {
+        "Name": "Gemini",
+        "Icon": "󰪁",
+        "House": 3,
+        "StartDate": "05-21",
+        "EndDate": "06-20",
+        "Element": "Air",
+        "Modality": "Mutable",
+        "Polarity": "Active",
+        "rulingPlanet": "Mercury"
+    },
+    {
+        "Name": "Cancer",
+        "Icon": "󰩿",
+        "House": 4,
+        "StartDate": "06-21",
+        "EndDate": "07-22",
+        "Element": "Water",
+        "Modality": "Cardinal",
+        "Polarity": "Passive",
+        "rulingPlanet": "Moon"
+    },
+    {
+        "Name": "Leo",
+        "Icon": "󰪂",
+        "House": 5,
+        "StartDate": "07-23",
+        "EndDate": "08-22",
+        "Element": "Fire",
+        "Modality": "Fixed",
+        "Polarity": "Active",
+        "rulingPlanet": "Sun"
+    },
+    {
+        "Name": "Virgo",
+        "Icon": "󰪈",
+        "House": 6,
+        "StartDate": "08-23",
+        "EndDate": "09-22",
+        "Element": "Earth",
+        "Modality": "Mutable",
+        "Polarity": "Passive",
+        "rulingPlanet": "Mercury"
+    },
+    {
+        "Name": "Libra",
+        "Icon": "󰪃",
+        "House": 7,
+        "StartDate": "09-23",
+        "EndDate": "10-22",
+        "Element": "Air",
+        "Modality": "Cardinal",
+        "Polarity": "Active",
+        "rulingPlanet": "Venus"
+    },
+    {
+        "Name": "Scorpio",
+        "Icon": "󰪆",
+        "House": 8,
+        "StartDate": "10-23",
+        "EndDate": "11-21",
+        "Element": "Water",
+        "Modality": "Fixed",
+        "Polarity": "Passive",
+        "rulingPlanet": "Pluto"
+    },
+    {
+        "Name": "Sagittarius",
+        "Icon": "󰪅",
+        "House": 9,
+        "StartDate": "11-22",
+        "EndDate": "12-21",
+        "Element": "Fire",
+        "Modality": "Mutable",
+        "Polarity": "Active",
+        "rulingPlanet": "Jupiter"
+    },
+    {
+        "Name": "Capricorn",
+        "Icon": "󰪀",
+        "House": 10,
+        "StartDate": "12-22",
+        "EndDate": "01-19",
+        "Element": "Earth",
+        "Modality": "Cardinal",
+        "Polarity": "Passive",
+        "rulingPlanet": "Saturn"
+    },
+    {
+        "Name": "Aquarius",
+        "Icon": "󰩽",
+        "House": 11,
+        "StartDate": "01-20",
+        "EndDate": "02-18",
+        "Element": "Air",
+        "Modality": "Fixed",
+        "Polarity": "Active",
+        "rulingPlanet": "Uranus"
+    },
+    {
+        "Name": "Pisces",
+        "Icon": "󰪄",
+        "House": 12,
+        "StartDate": "02-19",
+        "EndDate": "03-20",
+        "Element": "Water",
+        "Modality": "Mutable",
+        "Polarity": "Passive",
+        "rulingPlanet": "Neptune"
+    }
+]

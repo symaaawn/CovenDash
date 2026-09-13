@@ -1,18 +1,10 @@
 namespace CovenDash.CovenDash.Core.Models;
 
-public class TarotCard
+public class TarotCard(string numeral, string name, string meaningUpright, string meaningReverse)
 {
-    public string Numeral { get; }
-    public string Name { get; }
-    public string MeaningUpright { get; }
-    public string MeaningReverse { get; }
+    public string Numeral { get; } = numeral;
+    public string Name { get; } = name;
+    public string MeaningUpright { get; } = meaningUpright;
+    public string MeaningReverse { get; } = meaningReverse;
     public bool Upright { get; set; } = true;
-
-    public TarotCard(string numeral, string name, string meaningUpright, string meaningReverse)
-    {
-        Numeral = numeral;
-        Name = name;
-        MeaningUpright = meaningUpright;
-        MeaningReverse = meaningReverse;
-    }
 }
